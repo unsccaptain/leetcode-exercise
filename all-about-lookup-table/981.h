@@ -2,11 +2,11 @@
  * 集合set的使用:存在重复元素
  * https://leetcode-cn.com/explore/orignial/card/all-about-lockup-table/236/learn-to-use-set/981
  **/
+#pragma once
 
 #include <vector>
 #include <unordered_set>
 #include <algorithm>
-
 using namespace std;
 
 namespace s981 {

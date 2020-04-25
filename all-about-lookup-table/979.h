@@ -5,7 +5,6 @@
 #pragma once
 
 #include <set>
-
 using namespace std;
 
 namespace s979 {

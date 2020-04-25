@@ -3,10 +3,10 @@
  * https://leetcode-cn.com/explore/orignial/card/all-about-lockup-table/236/learn-to-use-set/977/
  * 只需要将一个数组里的数字记录在set中，判断另一个数组的数字在不在set里
  **/
+#pragma once
 
 #include <vector>
 #include <set>
-
 using namespace std;
 
 namespace s977 {

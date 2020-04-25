@@ -2,9 +2,14 @@
 //
 
 #include <iostream>
+#include "all-about-lookup-table/993.h"
 
 int main()
 {
+    s993::use_twopointer::Solution s;
+    vector<int> z = { 0,0,0 };
+    s.threeSum(z);
+
     std::cout << "Hello World!\n";
 }
 

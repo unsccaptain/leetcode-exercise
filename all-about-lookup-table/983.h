@@ -3,6 +3,7 @@
  * https://leetcode-cn.com/explore/orignial/card/all-about-lockup-table/236/learn-to-use-set/983
  * 先将两个数组排序，然后步进比较
  **/
+#pragma once
 
 #include <vector>
 #include <algorithm>

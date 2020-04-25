@@ -154,10 +154,18 @@
     <ClInclude Include="all-about-lookup-table\979.h" />
     <ClInclude Include="all-about-lookup-table\981.h" />
     <ClInclude Include="all-about-lookup-table\983.h" />
+    <ClInclude Include="all-about-lookup-table\985.h" />
+    <ClInclude Include="all-about-lookup-table\987.h" />
+    <ClInclude Include="all-about-lookup-table\989.h" />
+    <ClInclude Include="all-about-lookup-table\991.h" />
+    <ClInclude Include="all-about-lookup-table\993.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="all-about-lookup-table\979.md" />
     <None Include="all-about-lookup-table\981.md" />
+    <None Include="all-about-lookup-table\989.md" />
+    <None Include="all-about-lookup-table\991.md" />
+    <None Include="all-about-lookup-table\993.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
