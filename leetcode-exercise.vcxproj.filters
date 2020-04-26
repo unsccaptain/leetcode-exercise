@@ -49,6 +49,12 @@
     <ClInclude Include="all-about-lookup-table\993.h">
       <Filter>all-about-lookup-table</Filter>
     </ClInclude>
+    <ClInclude Include="all-about-lookup-table\997.h">
+      <Filter>all-about-lookup-table</Filter>
+    </ClInclude>
+    <ClInclude Include="all-about-lookup-table\999.h">
+      <Filter>all-about-lookup-table</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="all-about-lookup-table\979.md">
@@ -64,6 +70,9 @@
       <Filter>all-about-lookup-table\summary</Filter>
     </None>
     <None Include="all-about-lookup-table\993.md">
+      <Filter>all-about-lookup-table\summary</Filter>
+    </None>
+    <None Include="all-about-lookup-table\999.md">
       <Filter>all-about-lookup-table\summary</Filter>
     </None>
   </ItemGroup>

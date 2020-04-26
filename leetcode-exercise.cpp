@@ -2,13 +2,13 @@
 //
 
 #include <iostream>
-#include "all-about-lookup-table/993.h"
+#include "all-about-lookup-table/999.h"
 
 int main()
 {
-    s993::use_twopointer::Solution s;
-    vector<int> z = { 0,0,0 };
-    s.threeSum(z);
+    Solution s;
+    vector<string> vs = { "eat","tea","tan","ate","nat","bat" };
+    s.groupAnagrams(vs);
 
     std::cout << "Hello World!\n";
 }
