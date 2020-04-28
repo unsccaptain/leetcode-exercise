@@ -150,6 +150,10 @@
     <ClCompile Include="leetcode-exercise.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="all-about-lookup-table\1001.h" />
+    <ClInclude Include="all-about-lookup-table\1003.h" />
+    <ClInclude Include="all-about-lookup-table\1005.h" />
+    <ClInclude Include="all-about-lookup-table\1007.h" />
     <ClInclude Include="all-about-lookup-table\977.h" />
     <ClInclude Include="all-about-lookup-table\979.h" />
     <ClInclude Include="all-about-lookup-table\981.h" />
@@ -163,12 +167,17 @@
     <ClInclude Include="all-about-lookup-table\999.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="all-about-lookup-table\1001.md" />
+    <None Include="all-about-lookup-table\1003.md" />
+    <None Include="all-about-lookup-table\1005.md" />
+    <None Include="all-about-lookup-table\1007.md" />
     <None Include="all-about-lookup-table\979.md" />
     <None Include="all-about-lookup-table\981.md" />
     <None Include="all-about-lookup-table\989.md" />
     <None Include="all-about-lookup-table\991.md" />
     <None Include="all-about-lookup-table\993.md" />
     <None Include="all-about-lookup-table\999.md" />
+    <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

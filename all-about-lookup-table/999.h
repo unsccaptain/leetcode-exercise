@@ -22,12 +22,14 @@ namespace s999 {
 				unordered_map<string, vector<string>> um;
 				vector<vector<string>> ret;
 
+				/// 按每个字符串对字符进行排序的结果分类
 				for (auto iter : strs) {
 					string s = iter;
 					sort(s.begin(), s.end());
 					um[s].push_back(iter);
 				}
 
+				/// 返回分类结果
 				for (auto iter : um) {
 					ret.push_back(iter.second);
 				}
