@@ -15,6 +15,9 @@
     <Filter Include="all-about-lookup-table\summary">
       <UniqueIdentifier>{5701a796-7b0e-4b71-b4b6-5d658720c55d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="array-and-string">
+      <UniqueIdentifier>{4ea238ad-db04-49e5-b644-48dfa84aa03a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="leetcode-exercise.cpp">
@@ -67,6 +70,9 @@
     <ClInclude Include="all-about-lookup-table\1007.h">
       <Filter>all-about-lookup-table</Filter>
     </ClInclude>
+    <ClInclude Include="array-and-string\770.h">
+      <Filter>array-and-string</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="all-about-lookup-table\979.md">
@@ -100,5 +106,8 @@
       <Filter>all-about-lookup-table\summary</Filter>
     </None>
     <None Include="readme.md" />
+    <None Include="array-and-string\770.md">
+      <Filter>array-and-string</Filter>
+    </None>
   </ItemGroup>
 </Project>
