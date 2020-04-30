@@ -73,6 +73,12 @@
     <ClInclude Include="array-and-string\770.h">
       <Filter>array-and-string</Filter>
     </ClInclude>
+    <ClInclude Include="array-and-string\771.h">
+      <Filter>array-and-string</Filter>
+    </ClInclude>
+    <ClInclude Include="array-and-string\772.h">
+      <Filter>array-and-string</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="all-about-lookup-table\979.md">

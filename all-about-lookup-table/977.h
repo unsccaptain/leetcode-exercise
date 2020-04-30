@@ -5,32 +5,32 @@
  **/
 #pragma once
 
-#include <vector>
 #include <set>
+#include <vector>
 using namespace std;
 
 namespace s977 {
-	namespace use_set {
-		class Solution {
-		public:
-			vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-				vector<int> ret;
-				set<int> ele_1;
-				/// 记录nums1中所有出现的数字
-				for (auto i = 0;i < nums1.size();i++)
-					ele_1.insert(nums1[i]);
+namespace use_set {
+class Solution {
+public:
+  vector<int> intersection(vector<int> &nums1, vector<int> &nums2) {
+    vector<int> ret;
+    set<int> ele_1;
+    /// 记录nums1中所有出现的数字
+    for (auto i = 0; i < nums1.size(); i++)
+      ele_1.insert(nums1[i]);
 
-				/// 一但nums2中命中nums1中出现过的数字，就记录下来并将该数字从nums1中移除
-				for (auto i = 0;i < nums2.size();i++) {
-					set<int>::iterator it;
-					if ((it = ele_1.find(nums2[i])) != ele_1.end()) {
-						ret.push_back(nums2[i]);
-						ele_1.erase(it);
-					}
-				}
+    /// 一但nums2中命中nums1中出现过的数字，就记录下来并将该数字从nums1中移除
+    for (auto i = 0; i < nums2.size(); i++) {
+      set<int>::iterator it;
+      if ((it = ele_1.find(nums2[i])) != ele_1.end()) {
+        ret.push_back(nums2[i]);
+        ele_1.erase(it);
+      }
+    }
 
-				return ret;
-			}
-		};
-	}
-}
+    return ret;
+  }
+};
+} // namespace use_set
+} // namespace s977

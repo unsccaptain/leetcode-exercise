@@ -10,31 +10,31 @@
 using namespace std;
 
 namespace s985 {
-	namespace use_map {
-		/**
-		 * @brief: 字典方法
-		 */
-		class Solution {
-		public:
-			bool isAnagram(string s, string t) {
-				int count[26] = { 0 };
-				for (auto i : s) {
-					count[i - 'a']++;
-				}
+namespace use_map {
+/**
+ * @brief: 字典方法
+ */
+class Solution {
+public:
+  bool isAnagram(string s, string t) {
+    int count[26] = {0};
+    for (auto i : s) {
+      count[i - 'a']++;
+    }
 
-				for (auto i : t) {
-					if (count[i - 'a'] == 0)
-						return false;
-					count[i - 'a']--;
-				}
+    for (auto i : t) {
+      if (count[i - 'a'] == 0)
+        return false;
+      count[i - 'a']--;
+    }
 
-				for (int i = 0;i < 26;i++) {
-					if (count[i])
-						return false;
-				}
+    for (int i = 0; i < 26; i++) {
+      if (count[i])
+        return false;
+    }
 
-				return true;
-			}
-		};
-	}
-}
+    return true;
+  }
+};
+} // namespace use_map
+} // namespace s985

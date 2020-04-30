@@ -6,34 +6,35 @@
  **/
 #pragma once
 
-#include <vector>
 #include <unordered_map>
+#include <vector>
 using namespace std;
 
 namespace s997 {
-	namespace use_map {
-		class Solution {
-		public:
-			int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
-				unordered_map<int, int> z;
-				/// 计算出A和B的所有可能组合
-				for (int i = 0;i < A.size();++i) {
-					for (int j = 0;j < B.size();++j) {
-						z[A[i] + B[j]]++;
-					}
-				}
+namespace use_map {
+class Solution {
+public:
+  int fourSumCount(vector<int> &A, vector<int> &B, vector<int> &C,
+                   vector<int> &D) {
+    unordered_map<int, int> z;
+    /// 计算出A和B的所有可能组合
+    for (int i = 0; i < A.size(); ++i) {
+      for (int j = 0; j < B.size(); ++j) {
+        z[A[i] + B[j]]++;
+      }
+    }
 
-				int cnt = 0;
-				/// 再计算出C和D的所有可能组合，并计数这两个组合结果为0的个数
-				for (int i = 0;i < A.size();++i) {
-					for (int j = 0;j < B.size();++j) {
-						int k = -(C[i] + D[j]);
-						cnt += z[k];
-					}
-				}
+    int cnt = 0;
+    /// 再计算出C和D的所有可能组合，并计数这两个组合结果为0的个数
+    for (int i = 0; i < A.size(); ++i) {
+      for (int j = 0; j < B.size(); ++j) {
+        int k = -(C[i] + D[j]);
+        cnt += z[k];
+      }
+    }
 
-				return cnt;
-			}
-		};
-	}
-}
+    return cnt;
+  }
+};
+} // namespace use_map
+} // namespace s997

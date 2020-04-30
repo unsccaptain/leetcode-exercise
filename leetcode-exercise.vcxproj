@@ -166,6 +166,8 @@
     <ClInclude Include="all-about-lookup-table\997.h" />
     <ClInclude Include="all-about-lookup-table\999.h" />
     <ClInclude Include="array-and-string\770.h" />
+    <ClInclude Include="array-and-string\771.h" />
+    <ClInclude Include="array-and-string\772.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="all-about-lookup-table\1001.md" />

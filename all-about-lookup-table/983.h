@@ -5,35 +5,35 @@
  **/
 #pragma once
 
-#include <vector>
 #include <algorithm>
+#include <vector>
 using namespace std;
 
 namespace s983 {
-	namespace use_sort {
-		/**
-		 * @brief：排序方法
-		 */
-		class Solution {
-		public:
-			vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-				int index = 0;
-				vector<int> ret;
-				if (nums1.size() == 0 || nums2.size() == 0)
-					return ret;
-				sort(nums1.begin(), nums1.end());
-				sort(nums2.begin(), nums2.end());
-				for (int i = 0;i < nums1.size();++i) {
-					for (int j = index;j < nums2.size();++j) {
-						if (nums2[j] == nums1[i]) {
-							ret.push_back(nums1[i]);
-							index = j + 1;
-							break;
-						}
-					}
-				}
-				return ret;
-			}
-		};
-	}
-}
+namespace use_sort {
+/**
+ * @brief：排序方法
+ */
+class Solution {
+public:
+  vector<int> intersect(vector<int> &nums1, vector<int> &nums2) {
+    int index = 0;
+    vector<int> ret;
+    if (nums1.size() == 0 || nums2.size() == 0)
+      return ret;
+    sort(nums1.begin(), nums1.end());
+    sort(nums2.begin(), nums2.end());
+    for (int i = 0; i < nums1.size(); ++i) {
+      for (int j = index; j < nums2.size(); ++j) {
+        if (nums2[j] == nums1[i]) {
+          ret.push_back(nums1[i]);
+          index = j + 1;
+          break;
+        }
+      }
+    }
+    return ret;
+  }
+};
+} // namespace use_sort
+} // namespace s983
