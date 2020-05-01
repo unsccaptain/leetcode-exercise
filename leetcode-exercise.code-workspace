@@ -3,5 +3,8 @@
 		{
 			"path": "C:\\Develop\\LeetCode\\github"
 		}
-	]
+	],
+	"settings": {
+		"files.autoGuessEncoding": true
+	}
 }

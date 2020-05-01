@@ -18,6 +18,9 @@
     <Filter Include="array-and-string">
       <UniqueIdentifier>{4ea238ad-db04-49e5-b644-48dfa84aa03a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="array-and-string\summary">
+      <UniqueIdentifier>{a3481580-bd7f-423f-b10c-32c242239065}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="leetcode-exercise.cpp">
@@ -79,6 +82,15 @@
     <ClInclude Include="array-and-string\772.h">
       <Filter>array-and-string</Filter>
     </ClInclude>
+    <ClInclude Include="array-and-string\774.h">
+      <Filter>array-and-string</Filter>
+    </ClInclude>
+    <ClInclude Include="array-and-string\775.h">
+      <Filter>array-and-string</Filter>
+    </ClInclude>
+    <ClInclude Include="array-and-string\776.h">
+      <Filter>array-and-string</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="all-about-lookup-table\979.md">
@@ -112,8 +124,19 @@
       <Filter>all-about-lookup-table\summary</Filter>
     </None>
     <None Include="readme.md" />
-    <None Include="array-and-string\770.md">
-      <Filter>array-and-string</Filter>
+    <None Include="array-and-string\774.md">
+      <Filter>array-and-string\summary</Filter>
     </None>
+    <None Include="array-and-string\776.md">
+      <Filter>array-and-string\summary</Filter>
+    </None>
+    <None Include="array-and-string\770.md">
+      <Filter>array-and-string\summary</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="array-and-string\res\774_1.png">
+      <Filter>array-and-string\summary</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -168,6 +168,9 @@
     <ClInclude Include="array-and-string\770.h" />
     <ClInclude Include="array-and-string\771.h" />
     <ClInclude Include="array-and-string\772.h" />
+    <ClInclude Include="array-and-string\774.h" />
+    <ClInclude Include="array-and-string\775.h" />
+    <ClInclude Include="array-and-string\776.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="all-about-lookup-table\1001.md" />
@@ -181,7 +184,12 @@
     <None Include="all-about-lookup-table\993.md" />
     <None Include="all-about-lookup-table\999.md" />
     <None Include="array-and-string\770.md" />
+    <None Include="array-and-string\774.md" />
+    <None Include="array-and-string\776.md" />
     <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="array-and-string\res\774_1.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
