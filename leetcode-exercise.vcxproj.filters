@@ -91,6 +91,15 @@
     <ClInclude Include="array-and-string\776.h">
       <Filter>array-and-string</Filter>
     </ClInclude>
+    <ClInclude Include="array-and-string\779.h">
+      <Filter>array-and-string</Filter>
+    </ClInclude>
+    <ClInclude Include="array-and-string\780.h">
+      <Filter>array-and-string</Filter>
+    </ClInclude>
+    <ClInclude Include="array-and-string\781.h">
+      <Filter>array-and-string</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="all-about-lookup-table\979.md">
@@ -131,6 +140,9 @@
       <Filter>array-and-string\summary</Filter>
     </None>
     <None Include="array-and-string\770.md">
+      <Filter>array-and-string\summary</Filter>
+    </None>
+    <None Include="array-and-string\779.md">
       <Filter>array-and-string\summary</Filter>
     </None>
   </ItemGroup>

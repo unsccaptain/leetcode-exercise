@@ -171,6 +171,9 @@
     <ClInclude Include="array-and-string\774.h" />
     <ClInclude Include="array-and-string\775.h" />
     <ClInclude Include="array-and-string\776.h" />
+    <ClInclude Include="array-and-string\779.h" />
+    <ClInclude Include="array-and-string\780.h" />
+    <ClInclude Include="array-and-string\781.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="all-about-lookup-table\1001.md" />
@@ -186,6 +189,7 @@
     <None Include="array-and-string\770.md" />
     <None Include="array-and-string\774.md" />
     <None Include="array-and-string\776.md" />
+    <None Include="array-and-string\779.md" />
     <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>

@@ -1,13 +1,12 @@
 ﻿// leetcode-exercise.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
-#include "array-and-string/774.h"
+#include "array-and-string/780.h"
 #include <iostream>
 
 int main() {
-  s774::use_iter::Solution s;
-  vector<vector<int>> k = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-  s.findDiagonalOrder(k);
+  s780::sunday::Solution s;
+  s.strStr("", "a");
 
   std::cout << "Hello World!\n";
 }
